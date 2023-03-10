@@ -12,7 +12,7 @@ def turn_interpreted_addition_into_subtraction():
 
 
 def _addition_into_subtraction_frame_evaluator(frame):
-    print("Hello from inside our frame evaluator!")
+    print(f"Hello from inside our frame evaluator! (compiling {frame.f_code.co_name})")
 
     # Modifying bytecode can be much more complicated this. Bytecode is also considered an
     # implementation detail of CPython, so this stuff is quite susceptible to being broken.
