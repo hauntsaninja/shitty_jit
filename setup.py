@@ -9,4 +9,5 @@ setup(
             "shitty_jit._shitty_eval", ["shitty_jit/shitty_eval.c"], extra_compile_args=["-Wall"]
         )
     ],
+    python_requires=">=3.9,<3.11",
 )
